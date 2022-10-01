@@ -84,21 +84,20 @@ background: linear-gradient(to right, #ff9472, #f2709c);
 .meme {
   position: relative;
   margin: auto;
-  width: 450px;
-  height: 450px;
   text-align: center;
-  position: relative;
+  width: 450px;
+  height: auto;
 }
 
 .meme-img {
-  max-width: 100%;
-  max-height: 400px;
+  width: 100%;
+  height: auto;
+  display: block;
   border-radius: 3px;
 }
 
 .meme-text {
   position: absolute;
-  height: 100px;
   width: 80%;
   text-align: center;
   left: 50%;
