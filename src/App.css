@@ -105,9 +105,10 @@ background: linear-gradient(to right, #ff9472, #f2709c);
 }
 
 .meme-img {
-  width: 100%;
-  height: auto;
-  max-height: 500px;
+  width: auto;
+  max-width: 100%;
+  /* height: auto; */
+  max-height: 450px;
   display: block;
   border-radius: 3px;
 }
